@@ -12,7 +12,7 @@ namespace Library_Books
         {
             foreach (Book n in Library.listBooks)
             {
-                Console.WriteLine(n.nameAuthor + " " + n.nameBook + " " + n.yearOfPublishing + " " + n.numberOfPages);
+                Console.WriteLine("Author :{0}\nName Book :{1}\nYear Of Publishing :{2}\nNumber Of Pages :{3}\n", n.nameAuthor, n.nameBook, n.yearOfPublishing, n.numberOfPages);
             }
         }
          public void ReadLine()

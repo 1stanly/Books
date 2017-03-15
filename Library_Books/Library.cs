@@ -9,7 +9,6 @@ namespace Library_Books
     public class Library
     {
         ConsoleIO consoleIO = new ConsoleIO();
-        //Book g = new Book();
        static public List<Book> listBooks = new List<Book>();
 
         public void CreateLibrary()
