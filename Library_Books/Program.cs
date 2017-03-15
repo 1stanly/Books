@@ -11,7 +11,8 @@ namespace Library_Books
         static void Main()
         {
             Library start = new Library();
-            start.CreateLibrary();
+            start.CreateLibraryBooks();
+            start.CreateLibraryJournals();
 
             ConsoleIO consoleIO = new ConsoleIO();
             consoleIO.ReadLine();
