@@ -8,8 +8,13 @@ namespace Library_Books
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Library start = new Library();
+            start.CreateLibrary();
+
+            ConsoleIO consoleIO = new ConsoleIO();
+            consoleIO.ReadLine();
         }
     }
 }
